@@ -48,15 +48,14 @@ acceleration.
 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. 
 The units are radians/second.
 
-##Code run_analysis.R 
+##Code run_analysis.R
 
 Downloads and unzips all the information required, then it reads all the files and merges them into one dataset.
 
-Extracts only the measurements on the mean and standard deviation for each measurement. 
+Extracts only the measurements on the mean and standard deviation for each measurement.
 
-Uses descriptive activity names to name the activities in the data set. 
+Uses descriptive activity names to name the activities in the data set.
 
-Then uses these descrpitive names for the dataset columns names, renaming them.
+Then uses these descriptive names for the dataset columns names, renaming them.
 
-Finally it creates a new and independent tidy data set with the average of each variable for each activity and each subject. These 
-dataset is called "tidydataset.txt"
+Finally, it creates a new and independent tidy data set with the average of each variable for each activity and each subject. This dataset is called "tidydataset.txt"
